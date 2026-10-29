@@ -1,0 +1,263 @@
+#appwindow {
+  background-color: #0d1117;
+  background-image: linear-gradient(160deg, #10161f 0%, #0b0f15 100%);
+}
+
+label {
+  color: #e6edf6;
+}
+
+.title {
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #f6f9fd;
+}
+
+.subtitle {
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: #7c8899;
+}
+
+.section {
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #8b97a8;
+}
+
+.muted {
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 12px;
+  color: #7c8899;
+}
+
+/* segmented mode switch */
+
+.segmented {
+  background-color: #151b24;
+  border: 1px solid #1e2733;
+  border-radius: 13px;
+  padding: 4px;
+}
+
+.segmented button,
+.segmented button:focus {
+  background-image: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: #8b97a8;
+  padding: 9px 0;
+  border-radius: 10px;
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.segmented button:hover {
+  color: #c8d3e2;
+}
+
+.segmented button:checked {
+  background-color: #222c3a;
+  color: #f2f6fc;
+}
+
+/* timer card */
+
+.card {
+  background-color: #141b24;
+  border: 1px solid #202a37;
+  border-radius: 20px;
+  padding: 26px 22px 22px 22px;
+}
+
+.clock {
+  font-family: "DejaVu Sans Mono", "Liberation Mono", monospace;
+  font-size: 66px;
+  font-weight: 700;
+  color: #f6f9fd;
+}
+
+.status {
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8695a8;
+}
+
+progressbar.timebar trough {
+  background-color: #0a0e14;
+  border: none;
+  border-radius: 99px;
+  min-height: 10px;
+}
+
+progressbar.timebar progress {
+  background-color: #4c8dff;
+  border: none;
+  border-radius: 99px;
+  min-height: 10px;
+}
+
+progressbar.timebar.break progress {
+  background-color: #35d39a;
+}
+
+/* preset chips */
+
+.chip {
+  background-image: none;
+  background-color: #171f29;
+  border: 1px solid #232d3a;
+  border-radius: 11px;
+  box-shadow: none;
+  outline: none;
+  color: #9aa7b8;
+  padding: 9px 0;
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.chip:hover {
+  background-color: #1d2733;
+  border-color: #2c3948;
+  color: #cdd8e6;
+}
+
+.chip.selected {
+  background-color: #1c2c44;
+  border-color: #3c6bb0;
+  color: #dce9ff;
+}
+
+.chip:disabled {
+  color: #5b6675;
+}
+
+/* spin button */
+
+spinbutton {
+  background-image: none;
+  background-color: #171f29;
+  border: 1px solid #232d3a;
+  border-radius: 11px;
+  color: #e6edf6;
+  box-shadow: none;
+}
+
+spinbutton entry {
+  background-image: none;
+  background-color: transparent;
+  color: #e6edf6;
+  border: none;
+  box-shadow: none;
+  padding: 6px 4px;
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+spinbutton button {
+  background-image: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #9aa7b8;
+}
+
+spinbutton button:hover {
+  color: #e6edf6;
+}
+
+/* controls */
+
+.primary {
+  background-image: none;
+  background-color: #4c8dff;
+  border: 1px solid #4c8dff;
+  border-radius: 12px;
+  box-shadow: none;
+  outline: none;
+  color: #06101f;
+  padding: 14px 22px;
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.primary:hover {
+  background-color: #6aa0ff;
+  border-color: #6aa0ff;
+}
+
+.primary:active {
+  background-color: #3b78e6;
+  border-color: #3b78e6;
+}
+
+.primary.break {
+  background-color: #35d39a;
+  border-color: #35d39a;
+  color: #04140d;
+}
+
+.primary.break:hover {
+  background-color: #57e0b0;
+  border-color: #57e0b0;
+}
+
+.primary.break:active {
+  background-color: #2bb884;
+  border-color: #2bb884;
+}
+
+.ghost {
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid #2a3644;
+  border-radius: 12px;
+  box-shadow: none;
+  outline: none;
+  color: #9aa7b8;
+  padding: 14px 20px;
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ghost:hover {
+  background-color: #161d26;
+  border-color: #3a4a5d;
+  color: #d3dde9;
+}
+
+/* alarm overlay */
+
+.scrim {
+  background-color: rgba(5, 7, 10, 0.72);
+}
+
+.alarm {
+  background-color: #191216;
+  border: 1px solid #4a2329;
+  border-radius: 18px;
+  padding: 26px 22px;
+}
+
+.alarm-title {
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ff9a9a;
+}
+
+.alarm-desc {
+  font-family: "Cantarell", "Ubuntu", sans-serif;
+  font-size: 13px;
+  color: #c9b1b4;
+}

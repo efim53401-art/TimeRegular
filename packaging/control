@@ -1,0 +1,12 @@
+Package: timeregular
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libgtk-3-0t64 | libgtk-3-0, libglib2.0-0t64 | libglib2.0-0, pulseaudio-utils | pipewire-bin, libcanberra0t64 | libcanberra0
+Maintainer: efim53401-art <efim53401-art@users.noreply.github.com>
+Installed-Size: 48
+Description: Focus and break timer
+ A minimal dark-themed focus and break timer with selectable
+ durations, a custom time field, a progress display and a
+ repeating alarm sound when a session ends.

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=TimeRegular
+GenericName=Focus Timer
+Comment=Focus and break timer with selectable durations
+Exec=timeregular
+Icon=timeregular
+Terminal=false
+Categories=Utility;GTK;
+StartupNotify=true
+StartupWMClass=timeregular
